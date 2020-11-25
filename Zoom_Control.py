@@ -23,3 +23,6 @@ def openChat():
     keyboard.press('v')
     keyboard.release('v')
     keyboard.release(Key.cmd.value)
+
+    keyboard.press(Key.enter)
+    keyboard.release(Key.enter)
